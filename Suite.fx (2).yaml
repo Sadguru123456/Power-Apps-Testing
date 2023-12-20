@@ -1,0 +1,42 @@
+testSuite:
+  testSuiteName: Suite
+  testSuiteDescription: ''
+  persona: User1
+  appLogicalName: cra3f_registrationtable_65f26
+  appId: ''
+  onTestCaseStart: ""
+  onTestCaseComplete: ""
+  onTestSuiteComplete: ""
+  networkRequestMocks: 
+  testCases:
+  - testCaseName: Case
+    testCaseDescription: ''
+    testSteps: |
+      = 
+      Select('NewRecordLabel1');
+      Select('NewRecordAddIcon1');
+      SetProperty('DataCardValue6'.Text, Blank());
+      SetProperty('DataCardValue4'.Text, Blank());
+      SetProperty('DataCardValue2'.Text, Blank());
+      SetProperty('DataCardValue5'.Text, "353reg");
+      SetProperty('DataCardValue3'.Text, "dfgdsg");
+      SetProperty('DataCardValue1'.Text, "dfsgdrfg");
+      Select('SubmitFormButton1');
+testSettings:
+  filePath: 
+  browserConfigurations:
+  - browser: Chromium
+    device: 
+    screenWidth: 0
+    screenHeight: 0
+  locale: en-US
+  recordVideo: true
+  headless: true
+  enablePowerFxOverlay: false
+  timeout: 30000
+environmentVariables:
+  filePath: 
+  users:
+  - personaName: User1
+    emailKey: user1Email
+    passwordKey: user1Password
