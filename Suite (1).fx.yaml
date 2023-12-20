@@ -1,0 +1,32 @@
+testSuite:
+  testSuiteName: Suite (1)
+  testSuiteDescription: ''
+  persona: User1
+  appLogicalName: cra3f_appsregistration_3ed5d
+  appId: ''
+  onTestCaseStart: ""
+  onTestCaseComplete: ""
+  onTestSuiteComplete: ""
+  networkRequestMocks: 
+  testCases:
+  - testCaseName: Case
+    testCaseDescription: ''
+    testSteps: ""
+testSettings:
+  filePath: 
+  browserConfigurations:
+  - browser: Chromium
+    device: 
+    screenWidth: 0
+    screenHeight: 0
+  locale: en-US
+  recordVideo: true
+  headless: true
+  enablePowerFxOverlay: false
+  timeout: 30000
+environmentVariables:
+  filePath: 
+  users:
+  - personaName: User1
+    emailKey: user1Email
+    passwordKey: user1Password
