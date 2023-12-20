@@ -11,7 +11,7 @@ testSuite:
   testCases:
   - testCaseName: Case
     testCaseDescription: ''
-    testSteps: |
+    testSteps:
       = 
       Select('NewRecordLabel1');
       Select('NewRecordAddIcon1');
